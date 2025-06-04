@@ -34,9 +34,9 @@ function alterarNomePersonagemSelecionado(personagem) {
 
 function alterarImagemPersonagemSelecionado(personagem) {
     const imagemPersonagemGrande = document.querySelector('.personagem-grande');
-    
+
     const idPersonagem = personagem.attributes.id.value;
-    imagemPersonagemGrande.src = `./src/imagens/card-${idPersonagem}.png`;
+    imagemPersonagemGrande.src = `/imagens/card-${idPersonagem}.png`;
 }
 
 function removerSelecaoDoPersonagem() {
