@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     <title>X-MEN</title>
 </head>
 <body>
-    <header>
-        <h1>X-MEN</h1>
-    </header>
-    <main>
-        <div>
-            <div><img src="imagens/card-ciclope.jpg" alt="Ciclope"></div>
-            <div><img src="imagens/card-magneto.jpg" alt="Magneto"></div>
-            <div><img src="imagens/card-wolverine.jpg" alt="Wolverine"></div>
-            <div><img src="imagens/card-jeangrey.jpg" alt="Jean Grey"></div>
-            <div><img src="imagens/card-lincenegra.jpg" alt="Lince Negra"></div>
-            <div><img src="imagens/card-noturno.jpg" alt="Noturno"></div>
-            <div><img src="imagens/card-tempestade.jpg" alt="Tempestade"></div>
-            <div><img src="imagens/card-vampira.jpg" alt="Vampira"></div>
-        </div>
-    </main>
-    <footer>
+    <header class="cabecalho"><img src="imagens/logo.svg" alt=""></header>
 
-    </footer>
+    <main class="selecao-de-personagens">
+            <section class="personagens">
+                <h1 class="titulo">Selecione um personagem</h1>
+                <ul class="lista-de-personagens">
+                    <li class="personagem selecionado" id="ciclope"><img src="imagens/card-ciclope.jpg" alt="Personagem Ciclope"></li>
+                    <li class="personagem" id="magneto"><img src="imagens/card-magneto.jpg" alt="Personagem Magneto"></li>
+                    <li class="personagem" id="wolverine"><img src="imagens/card-wolverine.jpg" alt="Personagem Wolverine"></li>
+                    <li class="personagem" id="jeangrey"><img src="imagens/card-jeangrey.jpg" alt="Personagem Jean Grey"></li>
+                    <li class="personagem" id="lincenegra"><img src="imagens/card-lincenegra.jpg" alt="Personagem Lince Negra"></li>
+                    <li class="personagem" id="noturno"><img src="imagens/card-noturno.jpg" alt="Personagem Noturno"></li>
+                    <li class="personagem" id="tempestade"><img src="imagens/card-tempestade.jpg" alt="Personagem Tempestade"></li>
+                    <li class="personagem" id="vampira"><img src="imagens/card-vampira.jpg" alt="Personagem Vampira"></li>
+                </ul>
+            </section>
+            <section class="personagem-selecionado">
+                <img class="personagem-grande" src="imagens/ciclope.png" alt="Personagem Selecionado">
+
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem"> Ciclope</h2>
+                    <p class="descricao-personagem" id="descricao-personagem">
+                        Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.
+                    </p>
+                </div>
+            </section>
+    </main>
 </body>
 </html>
