@@ -12,11 +12,9 @@ body {
     background-attachment: fixed;
 }
 
-h1 img {
-    width: 400px;
-    height: 200px;
-    display: block;
-    margin: auto;
+h1 {
+    text-align: center;
+    
 }
 
 main {
